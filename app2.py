@@ -31,4 +31,4 @@ def process():
     return jsonify({'match': round(match, 2)})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
